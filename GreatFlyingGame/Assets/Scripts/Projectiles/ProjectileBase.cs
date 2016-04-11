@@ -5,8 +5,6 @@ using System.Collections;
 public class ProjectileBase : MonoBehaviour
 {
     public float Speed = 100.0f;
-
-
     private Rigidbody _rigidbody;
 
     protected virtual void Awake()

@@ -5,7 +5,7 @@ public abstract class WeaponBase : MonoBehaviour
 {
     public float FireRate = 1.0f;
     private float _fireTimer = 0.0f;
-
+    public bool IsFiring;
     protected virtual void Awake()
     {
         _fireTimer = 0.0f;
@@ -16,10 +16,10 @@ public abstract class WeaponBase : MonoBehaviour
     protected virtual void Update()
     {
         _fireTimer += Time.deltaTime;
-        float isPressed = Input.GetAxis("RightTrigger");
-        if( isPressed < 0.0f ) // -1 is right thumbstick
+        //bool isPressed = Input.GetAxis("RightTrigger") < 0;
+        if (IsFiring) // -1 is right thumbstick
         {
-            if( _fireTimer >= FireRate )
+            if (_fireTimer >= FireRate)
             {
                 _fireTimer = 0;
                 Fire();
