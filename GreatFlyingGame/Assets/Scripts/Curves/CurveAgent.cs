@@ -13,7 +13,7 @@ public class CurveAgent : MonoBehaviour
     public void Move(float speed)
 {
         CurrentT += FollowCurve.GetTIncrement(CurrentT, speed);
-        Vector3 newPos = FollowCurve.Move(CurrentT);
+        Vector3 newPos = FollowCurve.GetValueAt(CurrentT);
         transform.position = newPos + Offset;
         transform.forward = FollowCurve.GetForward(CurrentT);
     }

@@ -4,7 +4,7 @@ using System;
 
 public class LinearCurve : ICurve
 {
-    public override Vector3 Move(float tValue)
+    public override Vector3 GetValueAt(float tValue)
     {
         float t = tValue % Nodes.Length;
 
@@ -79,5 +79,24 @@ public class LinearCurve : ICurve
         }
 
         return (Nodes[nextNode].position - Nodes[currNode].position).normalized;
+    }
+
+    void OnDrawGizmos()
+    {
+        if (!DebugDraw)
+            return;
+
+        Color temp = Gizmos.color;
+
+        for (int i = 0; i < Nodes.Length - 1; ++i)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(Nodes[i].position, Nodes[i + 1].position);
+        }
+
+        Gizmos.color = new Color(1.0f, 0, 0, .75f);
+        Gizmos.DrawSphere(Nodes[Nodes.Length - 1].transform.position, 1.0f);
+
+        Gizmos.color = temp;
     }
 }
