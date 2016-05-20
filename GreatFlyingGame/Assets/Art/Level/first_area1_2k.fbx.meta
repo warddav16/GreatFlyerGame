@@ -1,65 +1,15 @@
 fileFormatVersion: 2
-guid: 2614eac64ee939e40ac881ea336b11e1
-timeCreated: 1462841761
+guid: 62d75711980dd2945b2516cd4f1b0d66
+timeCreated: 1463111699
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: group10
-    100004: pPipe2
-    100006: pPipe3
-    100008: pPlane12
-    100010: pPlane14
-    100012: pPlane15
-    100014: pPlane16
-    100016: pPlane17
-    100018: pPlane18
-    100020: pPlane19
-    100022: pPlane8
     400000: //RootNode
-    400002: group10
-    400004: pPipe2
-    400006: pPipe3
-    400008: pPlane12
-    400010: pPlane14
-    400012: pPlane15
-    400014: pPlane16
-    400016: pPlane17
-    400018: pPlane18
-    400020: pPlane19
-    400022: pPlane8
-    2300000: pPipe2
-    2300002: pPipe3
-    2300004: pPlane12
-    2300006: pPlane14
-    2300008: pPlane15
-    2300010: pPlane16
-    2300012: pPlane17
-    2300014: pPlane18
-    2300016: pPlane19
-    2300018: pPlane8
-    3300000: pPipe2
-    3300002: pPipe3
-    3300004: pPlane12
-    3300006: pPlane14
-    3300008: pPlane15
-    3300010: pPlane16
-    3300012: pPlane17
-    3300014: pPlane18
-    3300016: pPlane19
-    3300018: pPlane8
-    4300000: pPlane8
-    4300002: pPlane12
-    4300004: pPlane14
-    4300006: pPlane15
-    4300008: pPlane16
-    4300010: pPlane17
-    4300012: pPlane18
-    4300014: pPlane19
-    4300016: pPipe2
-    4300018: pPipe3
-    7400000: Take 001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: polySurface1
     9500000: //RootNode
   materials:
     importMaterials: 1
