@@ -2,15 +2,21 @@
 using System.Collections;
 [RequireComponent(typeof(ShipController))]
 
+
 public class Player : MonoBehaviour
 {
     private ShipController _controller;
+
+    private static Player _instance;
+    public static Player Get()
+    {
+        return _instance;
+    }
     
     void Awake()
     {
         _controller = GetComponent<ShipController>();
-        
-        
+        _instance = this; 
     }
     // Use this for initialization
     void Start()
