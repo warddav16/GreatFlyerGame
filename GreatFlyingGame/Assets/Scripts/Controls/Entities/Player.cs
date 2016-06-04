@@ -18,11 +18,6 @@ public class Player : MonoBehaviour
         _controller = GetComponent<ShipController>();
         _instance = this; 
     }
-    // Use this for initialization
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -32,7 +27,8 @@ public class Player : MonoBehaviour
             _controller.UpDown = Input.GetAxis("Horizontal");
             _controller.RightLeft = Input.GetAxis("Vertical");
             _controller.RotateZ = Input.GetAxis("RightH");
-            _controller.Accel = Input.GetAxis("RightV");
+            _controller.Accel = -Input.GetAxis("RightV");
+            _controller.IsFirePrimary = Input.GetAxis("RightTrigger") < 0; // > 0 left trigger
         }
         else
         {

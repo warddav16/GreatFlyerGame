@@ -78,17 +78,17 @@ public class ShipController : MonoBehaviour
         _rigidbody.velocity = transform.forward * _currSpeed;
     }
 
-//    void OnCollisionEnter(Collision col)
-//    {
-//        transform.forward = Vector3.Reflect(transform.forward, col.contacts[0].normal);
-//        _rigidbody.velocity = transform.forward * _rigidbody.velocity.magnitude;
-//        if (_shield == null)
-//        {
-//            _health.TakeDamage(/*col.GetComponent<DealsDamage>().Damage ||*/ _health.DefaultDamageTaken);
-//        }
-//        else
-//        {
-//            _shield.TakeDamage(/*col.GetComponent<DealsDamage>().Damage ||*/ _shield.DefaultDamageTaken);
-//        }
-//    }
+    void OnCollisionEnter(Collision col)
+    {
+        transform.forward = Vector3.Reflect(transform.forward, col.contacts[0].normal);
+        _rigidbody.velocity = transform.forward * _rigidbody.velocity.magnitude;
+        if (_shield == null)
+        {
+            _health.TakeDamage(/*col.GetComponent<DealsDamage>().Damage ||*/ _health.DefaultDamageTaken);
+        }
+        else
+        {
+            _shield.TakeDamage(/*col.GetComponent<DealsDamage>().Damage ||*/ _shield.DefaultDamageTaken);
+        }
+    }
 }
