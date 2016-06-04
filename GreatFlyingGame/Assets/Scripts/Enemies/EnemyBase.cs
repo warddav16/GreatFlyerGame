@@ -22,16 +22,17 @@ public abstract class EnemyBase : MonoBehaviour
         Vector3 rot = (dRot * Quaternion.Inverse(transform.rotation)).eulerAngles;
 
         _shipController.UpDown = rot.x;
-        _shipController.RightLeft = rot.y;
+        _shipController.RightLeft = -rot.y;
 
         RaycastHit hitinfo;
         bool shouldFire = false;
+        Debug.DrawRay(transform.position, (dRot * Quaternion.Inverse(transform.rotation)) * transform.forward * 1000.0f, Color.white );
         if( Physics.Raycast(transform.position, dirToPlayer, out hitinfo) )
         {
             if( hitinfo.transform.gameObject.tag == "Player")
             {
-                if( Vector3.Dot(transform.forward, dirToPlayer) >= FiringThreshold)
-                {
+                if ( Vector3.Dot(transform.forward, dirToPlayer) >= FiringThreshold)
+                { 
                     shouldFire = true;
                 }
             }
