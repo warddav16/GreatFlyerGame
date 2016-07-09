@@ -51,8 +51,8 @@ public class ShipController : MonoBehaviour
     {
         Quaternion newRot = _rigidbody.rotation;
         newRot *= Quaternion.Euler(Vector3.up * UpDown);
-        newRot *= Quaternion.Euler(-Vector3.right * RightLeft);
-        newRot *= Quaternion.Euler(-Vector3.forward * RotateZ);
+        newRot *= Quaternion.Euler(Vector3.right * RightLeft);
+        newRot *= Quaternion.Euler(Vector3.forward * RotateZ);
 
         _rigidbody.rotation = Quaternion.Slerp(_rigidbody.rotation, newRot, Time.fixedDeltaTime * RotationSpeed);
 
