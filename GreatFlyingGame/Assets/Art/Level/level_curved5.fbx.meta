@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: e5e3ad63ccac84449961d0b337ca9783
+timeCreated: 1468841125
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: nurbsToPoly16
+    100004: nurbsToPoly17
+    100006: nurbsToPoly18
+    100008: nurbsToPoly19
+    100010: nurbsToPoly20
+    100012: nurbsToPoly21
+    100014: nurbsToPoly22
+    100016: nurbsToPoly23
+    100018: nurbsToPoly24
+    100020: nurbsToPoly25
+    100022: nurbsToPoly26
+    100024: nurbsToPoly27
+    100026: nurbsToPoly28
+    100028: nurbsToPoly29
+    100030: nurbsToPoly30
+    400000: //RootNode
+    400002: nurbsToPoly16
+    400004: nurbsToPoly17
+    400006: nurbsToPoly18
+    400008: nurbsToPoly19
+    400010: nurbsToPoly20
+    400012: nurbsToPoly21
+    400014: nurbsToPoly22
+    400016: nurbsToPoly23
+    400018: nurbsToPoly24
+    400020: nurbsToPoly25
+    400022: nurbsToPoly26
+    400024: nurbsToPoly27
+    400026: nurbsToPoly28
+    400028: nurbsToPoly29
+    400030: nurbsToPoly30
+    2300000: nurbsToPoly16
+    2300002: nurbsToPoly17
+    2300004: nurbsToPoly18
+    2300006: nurbsToPoly19
+    2300008: nurbsToPoly20
+    2300010: nurbsToPoly21
+    2300012: nurbsToPoly22
+    2300014: nurbsToPoly23
+    2300016: nurbsToPoly24
+    2300018: nurbsToPoly25
+    2300020: nurbsToPoly26
+    2300022: nurbsToPoly27
+    2300024: nurbsToPoly28
+    2300026: nurbsToPoly29
+    2300028: nurbsToPoly30
+    3300000: nurbsToPoly16
+    3300002: nurbsToPoly17
+    3300004: nurbsToPoly18
+    3300006: nurbsToPoly19
+    3300008: nurbsToPoly20
+    3300010: nurbsToPoly21
+    3300012: nurbsToPoly22
+    3300014: nurbsToPoly23
+    3300016: nurbsToPoly24
+    3300018: nurbsToPoly25
+    3300020: nurbsToPoly26
+    3300022: nurbsToPoly27
+    3300024: nurbsToPoly28
+    3300026: nurbsToPoly29
+    3300028: nurbsToPoly30
+    4300000: nurbsToPoly16
+    4300002: nurbsToPoly17
+    4300004: nurbsToPoly18
+    4300006: nurbsToPoly19
+    4300008: nurbsToPoly20
+    4300010: nurbsToPoly21
+    4300012: nurbsToPoly22
+    4300014: nurbsToPoly23
+    4300016: nurbsToPoly24
+    4300018: nurbsToPoly25
+    4300020: nurbsToPoly26
+    4300022: nurbsToPoly27
+    4300024: nurbsToPoly28
+    4300026: nurbsToPoly29
+    4300028: nurbsToPoly30
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
