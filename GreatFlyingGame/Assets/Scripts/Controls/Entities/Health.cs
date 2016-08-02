@@ -3,22 +3,9 @@ using System.Collections;
 
 public class Health : Damageable<int>
 {
-    
     void Awake()
     {
         Curr = Max;
-    }
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public override void TakeDamage(int damage)
