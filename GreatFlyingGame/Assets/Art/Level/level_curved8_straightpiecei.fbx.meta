@@ -1,15 +1,23 @@
 fileFormatVersion: 2
-guid: bd0aafd60c7ff744eaa300b0966fb79b
-timeCreated: 1466718345
+guid: 769a11feda2a592468e0b147f79b0cf7
+timeCreated: 1471543306
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: straight10
+    100004: straight9
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Rock_Heavy
+    400002: straight10
+    400004: straight9
+    2300000: straight10
+    2300002: straight9
+    3300000: straight10
+    3300002: straight9
+    4300000: straight9
+    4300002: straight10
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -68,7 +76,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
